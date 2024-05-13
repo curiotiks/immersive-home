@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4b78e80f2cf8db75449efd639c9cd12c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4b78e80f2cf8db75449efd639c9cd12c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4b78e80f2cf8db75449efd639c9cd12c = L.map(
+                "map_4b78e80f2cf8db75449efd639c9cd12c",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eb38ca8047a37a16296c6b8e9e8bf913 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+            var circle_marker_4e197ba1b1b5e28200fa653f5d0eb669 = L.circleMarker(
+                [33.7489924, -84.3902644],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_272fbfe40b59218b372d7a780fb9e1d6 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_dced8fcdc63a9a79a3e63fb5d6408eca = $(`<div id="html_dced8fcdc63a9a79a3e63fb5d6408eca" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Atlanta, GA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Emory University (R1)<br>• Georgia Institute of Technology (R2)                 <br><strong>Schools:</strong><br>                 • Atlanta International School<br>• Atlanta Trilingual Academy<br>• Omni International School<br>• GLOBE Academy             </div>         </div>         </div>`)[0];
+                popup_272fbfe40b59218b372d7a780fb9e1d6.setContent(html_dced8fcdc63a9a79a3e63fb5d6408eca);
+            
+        
+
+        circle_marker_4e197ba1b1b5e28200fa653f5d0eb669.bindPopup(popup_272fbfe40b59218b372d7a780fb9e1d6)
+        ;
+
+        
+    
+    
+            circle_marker_4e197ba1b1b5e28200fa653f5d0eb669.bindTooltip(
+                `<div>
+                     <strong>Atlanta</strong><br/>Universities:<br/>• Emory University (R1)<br/>• Georgia Institute of Technology (R2)<br/>Schools:<br/>• Atlanta International School<br/>• Atlanta Trilingual Academy<br/>• Omni International School<br/>• GLOBE Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_afc8beb7c04303ad8937b345e551db56 = L.circleMarker(
+                [30.2711286, -97.7436995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_1f6e5e770857aa3a6166aafaf04e7057 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_26a55274a9c67689916ebb2f48b96e1f = $(`<div id="html_26a55274a9c67689916ebb2f48b96e1f" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Austin, TX</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Texas at Austin (R1)                 <br><strong>Schools:</strong><br>                 • LakeCreek Montessori International School<br>• Joslin Foreign Language Elementary School<br>• Little Tigers Immersion School<br>• Reilly Elementary<br>• Doss Elementary School             </div>         </div>         </div>`)[0];
+                popup_1f6e5e770857aa3a6166aafaf04e7057.setContent(html_26a55274a9c67689916ebb2f48b96e1f);
+            
+        
+
+        circle_marker_afc8beb7c04303ad8937b345e551db56.bindPopup(popup_1f6e5e770857aa3a6166aafaf04e7057)
+        ;
+
+        
+    
+    
+            circle_marker_afc8beb7c04303ad8937b345e551db56.bindTooltip(
+                `<div>
+                     <strong>Austin</strong><br/>Universities:<br/>• University of Texas at Austin (R1)<br/>Schools:<br/>• LakeCreek Montessori International School<br/>• Joslin Foreign Language Elementary School<br/>• Little Tigers Immersion School<br/>• Reilly Elementary<br/>• Doss Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab217acf2d041452a1eebdab52f42c6b = L.circleMarker(
+                [39.2908816, -76.610759],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_dba9b7e9de03f2ca480721e132f75863 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_1e5fc8b60eb7abf54aa6b9e371fbe9b4 = $(`<div id="html_1e5fc8b60eb7abf54aa6b9e371fbe9b4" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Baltimore, MD</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Johns Hopkins University (R1)<br>• University of Maryland, Baltimore County (R2)                 <br><strong>Schools:</strong><br>                 • Baltimore International Academy             </div>         </div>         </div>`)[0];
+                popup_dba9b7e9de03f2ca480721e132f75863.setContent(html_1e5fc8b60eb7abf54aa6b9e371fbe9b4);
+            
+        
+
+        circle_marker_ab217acf2d041452a1eebdab52f42c6b.bindPopup(popup_dba9b7e9de03f2ca480721e132f75863)
+        ;
+
+        
+    
+    
+            circle_marker_ab217acf2d041452a1eebdab52f42c6b.bindTooltip(
+                `<div>
+                     <strong>Baltimore</strong><br/>Universities:<br/>• Johns Hopkins University (R1)<br/>• University of Maryland, Baltimore County (R2)<br/>Schools:<br/>• Baltimore International Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd1ae9a72a8bc3075ad73c01f36a863a = L.circleMarker(
+                [30.4494155, -91.1869659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_019c94661962ecab8f1cb8b915aec333 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_c7b598d969908cce40302654c65aaca0 = $(`<div id="html_c7b598d969908cce40302654c65aaca0" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Baton Rouge, LA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Louisiana State University (R1)<br>• Southern University (R2)                 <br><strong>Schools:</strong><br>                 • Westdale Middle School<br>• Baton Rouge Foreign Language Academic Immersion Magnet              </div>         </div>         </div>`)[0];
+                popup_019c94661962ecab8f1cb8b915aec333.setContent(html_c7b598d969908cce40302654c65aaca0);
+            
+        
+
+        circle_marker_bd1ae9a72a8bc3075ad73c01f36a863a.bindPopup(popup_019c94661962ecab8f1cb8b915aec333)
+        ;
+
+        
+    
+    
+            circle_marker_bd1ae9a72a8bc3075ad73c01f36a863a.bindTooltip(
+                `<div>
+                     <strong>Baton Rouge</strong><br/>Universities:<br/>• Louisiana State University (R1)<br/>• Southern University (R2)<br/>Schools:<br/>• Westdale Middle School<br/>• Baton Rouge Foreign Language Academic Immersion Magnet 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_126ca61a698ffa9d6d35178c94a610df = L.circleMarker(
+                [37.8708393, -122.272863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_3a0d2e9b61d0b1e6d8af6e7d4f803108 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_84d479727f6561b4bed37b9ce839c8c2 = $(`<div id="html_84d479727f6561b4bed37b9ce839c8c2" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Berkeley, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of California, Berkeley (R1)                 <br><strong>Schools:</strong><br>                 • Shu Ren International School<br>• American International Montessori School<br>• Global Montessori International School             </div>         </div>         </div>`)[0];
+                popup_3a0d2e9b61d0b1e6d8af6e7d4f803108.setContent(html_84d479727f6561b4bed37b9ce839c8c2);
+            
+        
+
+        circle_marker_126ca61a698ffa9d6d35178c94a610df.bindPopup(popup_3a0d2e9b61d0b1e6d8af6e7d4f803108)
+        ;
+
+        
+    
+    
+            circle_marker_126ca61a698ffa9d6d35178c94a610df.bindTooltip(
+                `<div>
+                     <strong>Berkeley</strong><br/>Universities:<br/>• University of California, Berkeley (R1)<br/>Schools:<br/>• Shu Ren International School<br/>• American International Montessori School<br/>• Global Montessori International School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_452ce44b81877a353b79764ae4bf3f2c = L.circleMarker(
+                [43.6166163, -116.200886],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_5379ab603768f7391afac3cfb971f90e = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_a6642f031f4192449ce4d151933aa74f = $(`<div id="html_a6642f031f4192449ce4d151933aa74f" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Boise, ID</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Boise State University (R2)                 <br><strong>Schools:</strong><br>                 • Gateway School of Language and Culture             </div>         </div>         </div>`)[0];
+                popup_5379ab603768f7391afac3cfb971f90e.setContent(html_a6642f031f4192449ce4d151933aa74f);
+            
+        
+
+        circle_marker_452ce44b81877a353b79764ae4bf3f2c.bindPopup(popup_5379ab603768f7391afac3cfb971f90e)
+        ;
+
+        
+    
+    
+            circle_marker_452ce44b81877a353b79764ae4bf3f2c.bindTooltip(
+                `<div>
+                     <strong>Boise</strong><br/>Universities:<br/>• Boise State University (R2)<br/>Schools:<br/>• Gateway School of Language and Culture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4f9e5806a23aac1bb72c0e26ed2ec55 = L.circleMarker(
+                [42.3656347, -71.1040018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_bd471ac63a5635ff4baf90f2ca91877a = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_5890306102132941268e78dff79a04c6 = $(`<div id="html_5890306102132941268e78dff79a04c6" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Cambridge, MA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Harvard University (R1)                 <br><strong>Schools:</strong><br>                 • ML King Immerson School             </div>         </div>         </div>`)[0];
+                popup_bd471ac63a5635ff4baf90f2ca91877a.setContent(html_5890306102132941268e78dff79a04c6);
+            
+        
+
+        circle_marker_b4f9e5806a23aac1bb72c0e26ed2ec55.bindPopup(popup_bd471ac63a5635ff4baf90f2ca91877a)
+        ;
+
+        
+    
+    
+            circle_marker_b4f9e5806a23aac1bb72c0e26ed2ec55.bindTooltip(
+                `<div>
+                     <strong>Cambridge</strong><br/>Universities:<br/>• Harvard University (R1)<br/>Schools:<br/>• ML King Immerson School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4b0d7403973399f55419558e1732f0d5 = L.circleMarker(
+                [35.9131542, -79.05578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_faf8851e5caac0d7b7aba13c5a6da280 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_301ef6f7d08277e099c88af0fca595bb = $(`<div id="html_301ef6f7d08277e099c88af0fca595bb" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Chapel Hill, NC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of North Carolina at Chapel Hill (R1)                 <br><strong>Schools:</strong><br>                 • Phillips Middle School<br>• Glenwood Elementary School             </div>         </div>         </div>`)[0];
+                popup_faf8851e5caac0d7b7aba13c5a6da280.setContent(html_301ef6f7d08277e099c88af0fca595bb);
+            
+        
+
+        circle_marker_4b0d7403973399f55419558e1732f0d5.bindPopup(popup_faf8851e5caac0d7b7aba13c5a6da280)
+        ;
+
+        
+    
+    
+            circle_marker_4b0d7403973399f55419558e1732f0d5.bindTooltip(
+                `<div>
+                     <strong>Chapel Hill</strong><br/>Universities:<br/>• University of North Carolina at Chapel Hill (R1)<br/>Schools:<br/>• Phillips Middle School<br/>• Glenwood Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f9b6a2486972a3ffa6c9a7eae3f62717 = L.circleMarker(
+                [35.2272086, -80.8430827],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_b101b4c8e117965fa0949ed7c36d1834 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_130de00796e6db309d2cff6886751bb3 = $(`<div id="html_130de00796e6db309d2cff6886751bb3" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Charlotte, NC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of North Carolina at Charlotte (R2)                 <br><strong>Schools:</strong><br>                 • South Academy of International Languages<br>• East Voyager Academy             </div>         </div>         </div>`)[0];
+                popup_b101b4c8e117965fa0949ed7c36d1834.setContent(html_130de00796e6db309d2cff6886751bb3);
+            
+        
+
+        circle_marker_f9b6a2486972a3ffa6c9a7eae3f62717.bindPopup(popup_b101b4c8e117965fa0949ed7c36d1834)
+        ;
+
+        
+    
+    
+            circle_marker_f9b6a2486972a3ffa6c9a7eae3f62717.bindTooltip(
+                `<div>
+                     <strong>Charlotte</strong><br/>Universities:<br/>• University of North Carolina at Charlotte (R2)<br/>Schools:<br/>• South Academy of International Languages<br/>• East Voyager Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8c754c1dc424222f73f47c15028b0187 = L.circleMarker(
+                [41.8755616, -87.6244212],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_46f35c7b9dbc67dd7b4bc7b269641a30 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_1ef12ef02ba6011edfe180d019bf9402 = $(`<div id="html_1ef12ef02ba6011edfe180d019bf9402" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Chicago, IL</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Chicago (R1)<br>• University of Illinois Chicago (R2)                 <br><strong>Schools:</strong><br>                 • Intercultural Montessori Language School              </div>         </div>         </div>`)[0];
+                popup_46f35c7b9dbc67dd7b4bc7b269641a30.setContent(html_1ef12ef02ba6011edfe180d019bf9402);
+            
+        
+
+        circle_marker_8c754c1dc424222f73f47c15028b0187.bindPopup(popup_46f35c7b9dbc67dd7b4bc7b269641a30)
+        ;
+
+        
+    
+    
+            circle_marker_8c754c1dc424222f73f47c15028b0187.bindTooltip(
+                `<div>
+                     <strong>Chicago</strong><br/>Universities:<br/>• University of Chicago (R1)<br/>• University of Illinois Chicago (R2)<br/>Schools:<br/>• Intercultural Montessori Language School 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8fa4760a13c7e9c4a74de2a62a296517 = L.circleMarker(
+                [41.4996574, -81.6936772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_0cbb6419a8af1631c4d2c71eb4cc7126 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_9616fa5b2e44daba45fd1f64cb0e5904 = $(`<div id="html_9616fa5b2e44daba45fd1f64cb0e5904" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Cleveland, OH</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Case Western Reserve University (R1)<br>• Cleveland State University (R2)                 <br><strong>Schools:</strong><br>                 • Global Ambassadors Language Academy             </div>         </div>         </div>`)[0];
+                popup_0cbb6419a8af1631c4d2c71eb4cc7126.setContent(html_9616fa5b2e44daba45fd1f64cb0e5904);
+            
+        
+
+        circle_marker_8fa4760a13c7e9c4a74de2a62a296517.bindPopup(popup_0cbb6419a8af1631c4d2c71eb4cc7126)
+        ;
+
+        
+    
+    
+            circle_marker_8fa4760a13c7e9c4a74de2a62a296517.bindTooltip(
+                `<div>
+                     <strong>Cleveland</strong><br/>Universities:<br/>• Case Western Reserve University (R1)<br/>• Cleveland State University (R2)<br/>Schools:<br/>• Global Ambassadors Language Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_235058129c16a61156d76dae6098cb23 = L.circleMarker(
+                [38.980666, -76.9369189],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_d9e29dbaf831915dd5cfd223aaa7d319 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_1666aa61d330c96ce2cbfb0f302c3c09 = $(`<div id="html_1666aa61d330c96ce2cbfb0f302c3c09" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>College Park, MD</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Maryland, College Park (R1)                 <br><strong>Schools:</strong><br>                 • Paint Branch Elementary              </div>         </div>         </div>`)[0];
+                popup_d9e29dbaf831915dd5cfd223aaa7d319.setContent(html_1666aa61d330c96ce2cbfb0f302c3c09);
+            
+        
+
+        circle_marker_235058129c16a61156d76dae6098cb23.bindPopup(popup_d9e29dbaf831915dd5cfd223aaa7d319)
+        ;
+
+        
+    
+    
+            circle_marker_235058129c16a61156d76dae6098cb23.bindTooltip(
+                `<div>
+                     <strong>College Park</strong><br/>Universities:<br/>• University of Maryland, College Park (R1)<br/>Schools:<br/>• Paint Branch Elementary 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d989a8eb3f9fa6ac1d7cbe39e25db1a6 = L.circleMarker(
+                [38.8339578, -104.825348],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_dded1cb10f05988a8bd5410d2e93486f = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_ec0f4905f8882711355a95e7fad2f780 = $(`<div id="html_ec0f4905f8882711355a95e7fad2f780" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Colorado Springs, CO</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Colorado Colorado Springs (R2)                 <br><strong>Schools:</strong><br>                 • Colorado International Language Academy             </div>         </div>         </div>`)[0];
+                popup_dded1cb10f05988a8bd5410d2e93486f.setContent(html_ec0f4905f8882711355a95e7fad2f780);
+            
+        
+
+        circle_marker_d989a8eb3f9fa6ac1d7cbe39e25db1a6.bindPopup(popup_dded1cb10f05988a8bd5410d2e93486f)
+        ;
+
+        
+    
+    
+            circle_marker_d989a8eb3f9fa6ac1d7cbe39e25db1a6.bindTooltip(
+                `<div>
+                     <strong>Colorado Springs</strong><br/>Universities:<br/>• University of Colorado Colorado Springs (R2)<br/>Schools:<br/>• Colorado International Language Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e1d61fdac63e63c021c821b06caab236 = L.circleMarker(
+                [34.0003117, -81.0331309],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_35f6af9855fba652b12171df5871beed = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_0f69981fe737c07b603d553111c7834e = $(`<div id="html_0f69981fe737c07b603d553111c7834e" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Columbia, SC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of South Carolina (R1)                 <br><strong>Schools:</strong><br>                 • Hand Middle School<br>• Carver-Lyon Elementary             </div>         </div>         </div>`)[0];
+                popup_35f6af9855fba652b12171df5871beed.setContent(html_0f69981fe737c07b603d553111c7834e);
+            
+        
+
+        circle_marker_e1d61fdac63e63c021c821b06caab236.bindPopup(popup_35f6af9855fba652b12171df5871beed)
+        ;
+
+        
+    
+    
+            circle_marker_e1d61fdac63e63c021c821b06caab236.bindTooltip(
+                `<div>
+                     <strong>Columbia</strong><br/>Universities:<br/>• University of South Carolina (R1)<br/>Schools:<br/>• Hand Middle School<br/>• Carver-Lyon Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f0ab8d5bfb982334a9664db2a3994a38 = L.circleMarker(
+                [38.5435526, -121.739005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_b138b1f4e17712532dcc8f3ce8dfff07 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_485cbb879c78f6b96cc6a4b424ed6537 = $(`<div id="html_485cbb879c78f6b96cc6a4b424ed6537" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Davis, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of California, Davis (R1)                 <br><strong>Schools:</strong><br>                 • Peregrine School             </div>         </div>         </div>`)[0];
+                popup_b138b1f4e17712532dcc8f3ce8dfff07.setContent(html_485cbb879c78f6b96cc6a4b424ed6537);
+            
+        
+
+        circle_marker_f0ab8d5bfb982334a9664db2a3994a38.bindPopup(popup_b138b1f4e17712532dcc8f3ce8dfff07)
+        ;
+
+        
+    
+    
+            circle_marker_f0ab8d5bfb982334a9664db2a3994a38.bindTooltip(
+                `<div>
+                     <strong>Davis</strong><br/>Universities:<br/>• University of California, Davis (R1)<br/>Schools:<br/>• Peregrine School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c570fc6e9e6a567991334f324ea93b05 = L.circleMarker(
+                [39.7392364, -104.984862],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_25d91614086e3f7eadeb56f67625fafe = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_2e513e99d9078edda224b13b5fb849ff = $(`<div id="html_2e513e99d9078edda224b13b5fb849ff" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Denver, CO</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Colorado Denver (R1)                 <br><strong>Schools:</strong><br>                 • Denver Language School<br>• International School of Denver             </div>         </div>         </div>`)[0];
+                popup_25d91614086e3f7eadeb56f67625fafe.setContent(html_2e513e99d9078edda224b13b5fb849ff);
+            
+        
+
+        circle_marker_c570fc6e9e6a567991334f324ea93b05.bindPopup(popup_25d91614086e3f7eadeb56f67625fafe)
+        ;
+
+        
+    
+    
+            circle_marker_c570fc6e9e6a567991334f324ea93b05.bindTooltip(
+                `<div>
+                     <strong>Denver</strong><br/>Universities:<br/>• University of Colorado Denver (R1)<br/>Schools:<br/>• Denver Language School<br/>• International School of Denver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19e3f7b20aacba2a17052b5b2cf5ba6b = L.circleMarker(
+                [35.996653, -78.9018053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_2b050613257a7e1c86fa4d1934e05826 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_0b45252fc54b7df90ea55978130484ec = $(`<div id="html_0b45252fc54b7df90ea55978130484ec" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Durham, NC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Duke University (R1)                 <br><strong>Schools:</strong><br>                 • International Montessori School             </div>         </div>         </div>`)[0];
+                popup_2b050613257a7e1c86fa4d1934e05826.setContent(html_0b45252fc54b7df90ea55978130484ec);
+            
+        
+
+        circle_marker_19e3f7b20aacba2a17052b5b2cf5ba6b.bindPopup(popup_2b050613257a7e1c86fa4d1934e05826)
+        ;
+
+        
+    
+    
+            circle_marker_19e3f7b20aacba2a17052b5b2cf5ba6b.bindTooltip(
+                `<div>
+                     <strong>Durham</strong><br/>Universities:<br/>• Duke University (R1)<br/>Schools:<br/>• International Montessori School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c5af46a4bcc054bb0dae2af81ec3984 = L.circleMarker(
+                [44.0505054, -123.0950506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_3ea7ac5a0e82d7f481c9752bb36d74b2 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_6644184fae290c2fc4c590c378eb32c4 = $(`<div id="html_6644184fae290c2fc4c590c378eb32c4" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Eugene, OR</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Oregon (R1)                 <br><strong>Schools:</strong><br>                 • Churchill High School<br>• Kennedy Middle School (will be K-8)             </div>         </div>         </div>`)[0];
+                popup_3ea7ac5a0e82d7f481c9752bb36d74b2.setContent(html_6644184fae290c2fc4c590c378eb32c4);
+            
+        
+
+        circle_marker_1c5af46a4bcc054bb0dae2af81ec3984.bindPopup(popup_3ea7ac5a0e82d7f481c9752bb36d74b2)
+        ;
+
+        
+    
+    
+            circle_marker_1c5af46a4bcc054bb0dae2af81ec3984.bindTooltip(
+                `<div>
+                     <strong>Eugene</strong><br/>Universities:<br/>• University of Oregon (R1)<br/>Schools:<br/>• Churchill High School<br/>• Kennedy Middle School (will be K-8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f25d7d441f5f0b89ce1d90cd4f5c9ba5 = L.circleMarker(
+                [36.0726355, -79.7919754],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_143e0c7e30c1991c397cd64e074db4eb = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_453e71fe3559ecfce591056b5e86de50 = $(`<div id="html_453e71fe3559ecfce591056b5e86de50" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Greensboro, NC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • North Carolina A & T State University (R2)                 <br><strong>Schools:</strong><br>                 • Triad International Studies Academya             </div>         </div>         </div>`)[0];
+                popup_143e0c7e30c1991c397cd64e074db4eb.setContent(html_453e71fe3559ecfce591056b5e86de50);
+            
+        
+
+        circle_marker_f25d7d441f5f0b89ce1d90cd4f5c9ba5.bindPopup(popup_143e0c7e30c1991c397cd64e074db4eb)
+        ;
+
+        
+    
+    
+            circle_marker_f25d7d441f5f0b89ce1d90cd4f5c9ba5.bindTooltip(
+                `<div>
+                     <strong>Greensboro</strong><br/>Universities:<br/>• North Carolina A & T State University (R2)<br/>Schools:<br/>• Triad International Studies Academya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_487d68292fc2bcd75a23ff7e3087fa19 = L.circleMarker(
+                [37.6688205, -122.080796],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_3e11fd762e42b7c7ae9a40db8fd7f909 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_8c2525361aba58602d68b10aa9a8e7af = $(`<div id="html_8c2525361aba58602d68b10aa9a8e7af" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Hayward, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • California State University, East Bay (R2)                 <br><strong>Schools:</strong><br>                 • Bret Harte Middle School<br>• Stonebrae Elementary School             </div>         </div>         </div>`)[0];
+                popup_3e11fd762e42b7c7ae9a40db8fd7f909.setContent(html_8c2525361aba58602d68b10aa9a8e7af);
+            
+        
+
+        circle_marker_487d68292fc2bcd75a23ff7e3087fa19.bindPopup(popup_3e11fd762e42b7c7ae9a40db8fd7f909)
+        ;
+
+        
+    
+    
+            circle_marker_487d68292fc2bcd75a23ff7e3087fa19.bindTooltip(
+                `<div>
+                     <strong>Hayward</strong><br/>Universities:<br/>• California State University, East Bay (R2)<br/>Schools:<br/>• Bret Harte Middle School<br/>• Stonebrae Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26fe80fcb52943225114ef160fb3d5ce = L.circleMarker(
+                [40.7433066, -74.0323752],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_fc80399c37283564b2da19125cbf8b8d = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_a48c9b50763c88f1f7f35a9e20d6abb3 = $(`<div id="html_a48c9b50763c88f1f7f35a9e20d6abb3" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Hoboken, NJ</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Stevens Institute of Technology (R2)                 <br><strong>Schools:</strong><br>                 • Tessa International School             </div>         </div>         </div>`)[0];
+                popup_fc80399c37283564b2da19125cbf8b8d.setContent(html_a48c9b50763c88f1f7f35a9e20d6abb3);
+            
+        
+
+        circle_marker_26fe80fcb52943225114ef160fb3d5ce.bindPopup(popup_fc80399c37283564b2da19125cbf8b8d)
+        ;
+
+        
+    
+    
+            circle_marker_26fe80fcb52943225114ef160fb3d5ce.bindTooltip(
+                `<div>
+                     <strong>Hoboken</strong><br/>Universities:<br/>• Stevens Institute of Technology (R2)<br/>Schools:<br/>• Tessa International School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_edba24962e1e936ab170ff89d7c4774f = L.circleMarker(
+                [21.304547, -157.855676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_52351b92c13f930df9e1e7f6c803bb0a = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_029c85f83cabbeaba363388e40e3e165 = $(`<div id="html_029c85f83cabbeaba363388e40e3e165" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Honolulu, HI</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Hawaii at Manoa (R1)                 <br><strong>Schools:</strong><br>                 • Maryknoll School             </div>         </div>         </div>`)[0];
+                popup_52351b92c13f930df9e1e7f6c803bb0a.setContent(html_029c85f83cabbeaba363388e40e3e165);
+            
+        
+
+        circle_marker_edba24962e1e936ab170ff89d7c4774f.bindPopup(popup_52351b92c13f930df9e1e7f6c803bb0a)
+        ;
+
+        
+    
+    
+            circle_marker_edba24962e1e936ab170ff89d7c4774f.bindTooltip(
+                `<div>
+                     <strong>Honolulu</strong><br/>Universities:<br/>• University of Hawaii at Manoa (R1)<br/>Schools:<br/>• Maryknoll School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e6a11a9c8c80a237d35e3c6c10e4951a = L.circleMarker(
+                [29.7589382, -95.3676974],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_054d34c0317681ab9a93646b27a98852 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_b056769aa26c6e5abd59cbcd54ccec1a = $(`<div id="html_b056769aa26c6e5abd59cbcd54ccec1a" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Houston, TX</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Rice University (R1)<br>• University of Houston (R2)                 <br><strong>Schools:</strong><br>                 • Mandarin Chinese Language Immersion Magnet School             </div>         </div>         </div>`)[0];
+                popup_054d34c0317681ab9a93646b27a98852.setContent(html_b056769aa26c6e5abd59cbcd54ccec1a);
+            
+        
+
+        circle_marker_e6a11a9c8c80a237d35e3c6c10e4951a.bindPopup(popup_054d34c0317681ab9a93646b27a98852)
+        ;
+
+        
+    
+    
+            circle_marker_e6a11a9c8c80a237d35e3c6c10e4951a.bindTooltip(
+                `<div>
+                     <strong>Houston</strong><br/>Universities:<br/>• Rice University (R1)<br/>• University of Houston (R2)<br/>Schools:<br/>• Mandarin Chinese Language Immersion Magnet School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3af1fa5f094bea768b56432b08b78e3 = L.circleMarker(
+                [39.7683331, -86.1583502],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_e4e5492610f42aeae1c40f3c088a320d = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_ea133c1ccde6230e225e765500bed9c0 = $(`<div id="html_ea133c1ccde6230e225e765500bed9c0" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Indianapolis, IN</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Indiana University – Purdue University Indianapolis (R2)                 <br><strong>Schools:</strong><br>                 • International School of Indiana             </div>         </div>         </div>`)[0];
+                popup_e4e5492610f42aeae1c40f3c088a320d.setContent(html_ea133c1ccde6230e225e765500bed9c0);
+            
+        
+
+        circle_marker_d3af1fa5f094bea768b56432b08b78e3.bindPopup(popup_e4e5492610f42aeae1c40f3c088a320d)
+        ;
+
+        
+    
+    
+            circle_marker_d3af1fa5f094bea768b56432b08b78e3.bindTooltip(
+                `<div>
+                     <strong>Indianapolis</strong><br/>Universities:<br/>• Indiana University – Purdue University Indianapolis (R2)<br/>Schools:<br/>• International School of Indiana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4857137bb20b68c92305a1d818c7f2c5 = L.circleMarker(
+                [33.6856969, -117.825981],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_2320dcde8780f18cba82f05e2ca25874 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_5bfcbacca56b3641bdf3c62f42c3b321 = $(`<div id="html_5bfcbacca56b3641bdf3c62f42c3b321" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Irvine, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of California, Irvine (R1)                 <br><strong>Schools:</strong><br>                 • Irvine International Academy<br>• Pacific Academy<br>• Irvine Chinese Immersion Academy             </div>         </div>         </div>`)[0];
+                popup_2320dcde8780f18cba82f05e2ca25874.setContent(html_5bfcbacca56b3641bdf3c62f42c3b321);
+            
+        
+
+        circle_marker_4857137bb20b68c92305a1d818c7f2c5.bindPopup(popup_2320dcde8780f18cba82f05e2ca25874)
+        ;
+
+        
+    
+    
+            circle_marker_4857137bb20b68c92305a1d818c7f2c5.bindTooltip(
+                `<div>
+                     <strong>Irvine</strong><br/>Universities:<br/>• University of California, Irvine (R1)<br/>Schools:<br/>• Irvine International Academy<br/>• Pacific Academy<br/>• Irvine Chinese Immersion Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f6fc6b12fcfc68d88389dabdcd6eb3b = L.circleMarker(
+                [30.2262187, -92.0178202],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_b48ced4cf595840dd7ce81f9effb07fc = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_85a0a465c331efb3f3fca7adefb175e9 = $(`<div id="html_85a0a465c331efb3f3fca7adefb175e9" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Lafayette, LA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Louisiana at Lafayette (R1)                 <br><strong>Schools:</strong><br>                 • Cpl. Micheal Middlebrook Elementary              </div>         </div>         </div>`)[0];
+                popup_b48ced4cf595840dd7ce81f9effb07fc.setContent(html_85a0a465c331efb3f3fca7adefb175e9);
+            
+        
+
+        circle_marker_4f6fc6b12fcfc68d88389dabdcd6eb3b.bindPopup(popup_b48ced4cf595840dd7ce81f9effb07fc)
+        ;
+
+        
+    
+    
+            circle_marker_4f6fc6b12fcfc68d88389dabdcd6eb3b.bindTooltip(
+                `<div>
+                     <strong>Lafayette</strong><br/>Universities:<br/>• University of Louisiana at Lafayette (R1)<br/>Schools:<br/>• Cpl. Micheal Middlebrook Elementary 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_908beea80b0420cfb3963ffd89ddb60c = L.circleMarker(
+                [34.0536909, -118.242766],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_f07801d05632e8833cad6f237001e503 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_fad4126ca1a54452494b5ffa320d36f2 = $(`<div id="html_fad4126ca1a54452494b5ffa320d36f2" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Los Angeles, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of California, Los Angeles (R1)<br>• University of Southern California (R2)                 <br><strong>Schools:</strong><br>                 • Florence Nightingale Middle School <br>• Mark Twain Middle School<br>• Venice High School<br>• Castelar Elementary<br>• Worldspeak <br>• El Sereno Middle School <br>• City Terrace Elementary School<br>• Broadway Elementary School             </div>         </div>         </div>`)[0];
+                popup_f07801d05632e8833cad6f237001e503.setContent(html_fad4126ca1a54452494b5ffa320d36f2);
+            
+        
+
+        circle_marker_908beea80b0420cfb3963ffd89ddb60c.bindPopup(popup_f07801d05632e8833cad6f237001e503)
+        ;
+
+        
+    
+    
+            circle_marker_908beea80b0420cfb3963ffd89ddb60c.bindTooltip(
+                `<div>
+                     <strong>Los Angeles</strong><br/>Universities:<br/>• University of California, Los Angeles (R1)<br/>• University of Southern California (R2)<br/>Schools:<br/>• Florence Nightingale Middle School <br/>• Mark Twain Middle School<br/>• Venice High School<br/>• Castelar Elementary<br/>• Worldspeak <br/>• El Sereno Middle School <br/>• City Terrace Elementary School<br/>• Broadway Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f8cc4cf2a3909daff8b184bb6fa0f702 = L.circleMarker(
+                [44.9772995, -93.2654692],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_597e2627ae2d9ef5a24631ec3f4cee0e = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_e19f489eeeba0f5af268d431ec34d351 = $(`<div id="html_e19f489eeeba0f5af268d431ec34d351" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Minneapolis, MN</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Minnesota (R1)                 <br><strong>Schools:</strong><br>                 • Yinghua Academy Charter School             </div>         </div>         </div>`)[0];
+                popup_597e2627ae2d9ef5a24631ec3f4cee0e.setContent(html_e19f489eeeba0f5af268d431ec34d351);
+            
+        
+
+        circle_marker_f8cc4cf2a3909daff8b184bb6fa0f702.bindPopup(popup_597e2627ae2d9ef5a24631ec3f4cee0e)
+        ;
+
+        
+    
+    
+            circle_marker_f8cc4cf2a3909daff8b184bb6fa0f702.bindTooltip(
+                `<div>
+                     <strong>Minneapolis</strong><br/>Universities:<br/>• University of Minnesota (R1)<br/>Schools:<br/>• Yinghua Academy Charter School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a3e313ead9fe25d7b79227ab9aac3d77 = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_f91cc7e4084ff153a35ecdd7d8f59698 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_86cf33c2e9b62beb12531f21dedafe89 = $(`<div id="html_86cf33c2e9b62beb12531f21dedafe89" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>New York, NY</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • CUNY City College (R2)                 <br><strong>Schools:</strong><br>                 • Hudson Way Immersion School<br>• Polis Montessori World School<br>• Avenues: The World School<br>• Anna Silver P.S. 20<br>• High School for Dual Language and Asian Studies<br>• Shuang Wen School P.S. 184             </div>         </div>         </div>`)[0];
+                popup_f91cc7e4084ff153a35ecdd7d8f59698.setContent(html_86cf33c2e9b62beb12531f21dedafe89);
+            
+        
+
+        circle_marker_a3e313ead9fe25d7b79227ab9aac3d77.bindPopup(popup_f91cc7e4084ff153a35ecdd7d8f59698)
+        ;
+
+        
+    
+    
+            circle_marker_a3e313ead9fe25d7b79227ab9aac3d77.bindTooltip(
+                `<div>
+                     <strong>New York</strong><br/>Universities:<br/>• CUNY City College (R2)<br/>Schools:<br/>• Hudson Way Immersion School<br/>• Polis Montessori World School<br/>• Avenues: The World School<br/>• Anna Silver P.S. 20<br/>• High School for Dual Language and Asian Studies<br/>• Shuang Wen School P.S. 184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_75b59508d7c5b77184aa486a70e0714d = L.circleMarker(
+                [39.6828358, -75.7515682],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_2cc5e4968748b6982f8431e178aefb71 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_74831bd8ef341fa5a13cfc66dbe7b45c = $(`<div id="html_74831bd8ef341fa5a13cfc66dbe7b45c" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Newark, DE</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Delaware (R1)                 <br><strong>Schools:</strong><br>                 • Newark High School<br>• Shue-Medill Middle School<br>• John Downes Elementary             </div>         </div>         </div>`)[0];
+                popup_2cc5e4968748b6982f8431e178aefb71.setContent(html_74831bd8ef341fa5a13cfc66dbe7b45c);
+            
+        
+
+        circle_marker_75b59508d7c5b77184aa486a70e0714d.bindPopup(popup_2cc5e4968748b6982f8431e178aefb71)
+        ;
+
+        
+    
+    
+            circle_marker_75b59508d7c5b77184aa486a70e0714d.bindTooltip(
+                `<div>
+                     <strong>Newark</strong><br/>Universities:<br/>• University of Delaware (R1)<br/>Schools:<br/>• Newark High School<br/>• Shue-Medill Middle School<br/>• John Downes Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_66d98333a3906f0c51c54e080ae1c063 = L.circleMarker(
+                [33.750631, -117.8722311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_cceaf84675a64b0a2898642263002c35 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_828a33d1407abf7ad48978e3fdbb01f7 = $(`<div id="html_828a33d1407abf7ad48978e3fdbb01f7" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Orange, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Chapman University (R2)                 <br><strong>Schools:</strong><br>                 • Fletcher Elementary School             </div>         </div>         </div>`)[0];
+                popup_cceaf84675a64b0a2898642263002c35.setContent(html_828a33d1407abf7ad48978e3fdbb01f7);
+            
+        
+
+        circle_marker_66d98333a3906f0c51c54e080ae1c063.bindPopup(popup_cceaf84675a64b0a2898642263002c35)
+        ;
+
+        
+    
+    
+            circle_marker_66d98333a3906f0c51c54e080ae1c063.bindTooltip(
+                `<div>
+                     <strong>Orange</strong><br/>Universities:<br/>• Chapman University (R2)<br/>Schools:<br/>• Fletcher Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4b8e005e29b7a3d2c8ca463937787759 = L.circleMarker(
+                [34.1476507, -118.144155],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_991156b7df40fe36cdf0a5328fbcef94 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_927e870a06c57e2e5af620043e7ba755 = $(`<div id="html_927e870a06c57e2e5af620043e7ba755" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Pasadena, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • California Institute of Technology (R1)                 <br><strong>Schools:</strong><br>                 • Pasadena High School<br>• Sierra Madre Middle School<br>• Eugene Field Elementary School             </div>         </div>         </div>`)[0];
+                popup_991156b7df40fe36cdf0a5328fbcef94.setContent(html_927e870a06c57e2e5af620043e7ba755);
+            
+        
+
+        circle_marker_4b8e005e29b7a3d2c8ca463937787759.bindPopup(popup_991156b7df40fe36cdf0a5328fbcef94)
+        ;
+
+        
+    
+    
+            circle_marker_4b8e005e29b7a3d2c8ca463937787759.bindTooltip(
+                `<div>
+                     <strong>Pasadena</strong><br/>Universities:<br/>• California Institute of Technology (R1)<br/>Schools:<br/>• Pasadena High School<br/>• Sierra Madre Middle School<br/>• Eugene Field Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98f9c593eaeb8bd54e2d27ea8366c22e = L.circleMarker(
+                [45.5202471, -122.674194],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_c4b02ba10ecfe3e10ba7b2f3553930fa = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_2bc7530bbcd29749d6b33f5168ff9e7b = $(`<div id="html_2bc7530bbcd29749d6b33f5168ff9e7b" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Portland, OR</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Portland State University (R2)                 <br><strong>Schools:</strong><br>                 • International School of Portland<br>• Clark Elementary<br>• Harrison Park Middle School<br>• Jefferson High School<br>• Harriet Tubman Middle School<br>• Cleveland High School <br>• Woodstock Elementary School<br>• Martin Luther King Elementary School<br>• Gilkey International Middle School             </div>         </div>         </div>`)[0];
+                popup_c4b02ba10ecfe3e10ba7b2f3553930fa.setContent(html_2bc7530bbcd29749d6b33f5168ff9e7b);
+            
+        
+
+        circle_marker_98f9c593eaeb8bd54e2d27ea8366c22e.bindPopup(popup_c4b02ba10ecfe3e10ba7b2f3553930fa)
+        ;
+
+        
+    
+    
+            circle_marker_98f9c593eaeb8bd54e2d27ea8366c22e.bindTooltip(
+                `<div>
+                     <strong>Portland</strong><br/>Universities:<br/>• Portland State University (R2)<br/>Schools:<br/>• International School of Portland<br/>• Clark Elementary<br/>• Harrison Park Middle School<br/>• Jefferson High School<br/>• Harriet Tubman Middle School<br/>• Cleveland High School <br/>• Woodstock Elementary School<br/>• Martin Luther King Elementary School<br/>• Gilkey International Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5eb03d3092e8c1680d956163e49f7650 = L.circleMarker(
+                [40.2337289, -111.6587085],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_5e39c717d27de39e6441e969e6ca8d14 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_0445943acce9c50cfa3f6aa26b456783 = $(`<div id="html_0445943acce9c50cfa3f6aa26b456783" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Provo, UT</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Brigham Young University (R2)                 <br><strong>Schools:</strong><br>                 • Timpview High School<br>• Wasatch Elementary<br>• Centennial Middle School              </div>         </div>         </div>`)[0];
+                popup_5e39c717d27de39e6441e969e6ca8d14.setContent(html_0445943acce9c50cfa3f6aa26b456783);
+            
+        
+
+        circle_marker_5eb03d3092e8c1680d956163e49f7650.bindPopup(popup_5e39c717d27de39e6441e969e6ca8d14)
+        ;
+
+        
+    
+    
+            circle_marker_5eb03d3092e8c1680d956163e49f7650.bindTooltip(
+                `<div>
+                     <strong>Provo</strong><br/>Universities:<br/>• Brigham Young University (R2)<br/>Schools:<br/>• Timpview High School<br/>• Wasatch Elementary<br/>• Centennial Middle School 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4c48fc428c2dae2b4e91f17a4279c85 = L.circleMarker(
+                [35.7803977, -78.6390989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_3c673861f2fd0259c1ed742f56c2d678 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_a6a83364866a9c11f76289400b64abc2 = $(`<div id="html_a6a83364866a9c11f76289400b64abc2" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Raleigh, NC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • North Carolina State University (R1)                 <br><strong>Schools:</strong><br>                 • Oberlin Magnet Middle School<br>• Stough Elementary             </div>         </div>         </div>`)[0];
+                popup_3c673861f2fd0259c1ed742f56c2d678.setContent(html_a6a83364866a9c11f76289400b64abc2);
+            
+        
+
+        circle_marker_a4c48fc428c2dae2b4e91f17a4279c85.bindPopup(popup_3c673861f2fd0259c1ed742f56c2d678)
+        ;
+
+        
+    
+    
+            circle_marker_a4c48fc428c2dae2b4e91f17a4279c85.bindTooltip(
+                `<div>
+                     <strong>Raleigh</strong><br/>Universities:<br/>• North Carolina State University (R1)<br/>Schools:<br/>• Oberlin Magnet Middle School<br/>• Stough Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9104a5c6c64fdd2dd90b838446e143b0 = L.circleMarker(
+                [38.6280278, -90.1910154],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_452a304347088babef05d87a050b3451 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_d32b2db04c04e427d2205c533eeedbce = $(`<div id="html_d32b2db04c04e427d2205c533eeedbce" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Saint Louis, MO</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Saint Louis University (R2)                 <br><strong>Schools:</strong><br>                 • St. Louis Immersion Schools: The Chinese School             </div>         </div>         </div>`)[0];
+                popup_452a304347088babef05d87a050b3451.setContent(html_d32b2db04c04e427d2205c533eeedbce);
+            
+        
+
+        circle_marker_9104a5c6c64fdd2dd90b838446e143b0.bindPopup(popup_452a304347088babef05d87a050b3451)
+        ;
+
+        
+    
+    
+            circle_marker_9104a5c6c64fdd2dd90b838446e143b0.bindTooltip(
+                `<div>
+                     <strong>Saint Louis</strong><br/>Universities:<br/>• Saint Louis University (R2)<br/>Schools:<br/>• St. Louis Immersion Schools: The Chinese School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c29dce797cdb09ebe04085a6e4201ce9 = L.circleMarker(
+                [29.4246002, -98.4951405],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_f88d85e4f54d17bb98d6d250a72a0138 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_33042d112d3592e34a8f3daffd41f041 = $(`<div id="html_33042d112d3592e34a8f3daffd41f041" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>San Antonio, TX</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Texas at San Antonio (R1)                 <br><strong>Schools:</strong><br>                 • International School of San Antonio             </div>         </div>         </div>`)[0];
+                popup_f88d85e4f54d17bb98d6d250a72a0138.setContent(html_33042d112d3592e34a8f3daffd41f041);
+            
+        
+
+        circle_marker_c29dce797cdb09ebe04085a6e4201ce9.bindPopup(popup_f88d85e4f54d17bb98d6d250a72a0138)
+        ;
+
+        
+    
+    
+            circle_marker_c29dce797cdb09ebe04085a6e4201ce9.bindTooltip(
+                `<div>
+                     <strong>San Antonio</strong><br/>Universities:<br/>• University of Texas at San Antonio (R1)<br/>Schools:<br/>• International School of San Antonio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_870fe937ac621d86de69b9d3e6f47782 = L.circleMarker(
+                [32.7174202, -117.162772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_87ca5c3bf80d2c47fb88c9adac36e59a = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_eb6db449e195d4a73951b07a5b721f01 = $(`<div id="html_eb6db449e195d4a73951b07a5b721f01" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>San Diego, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of California, San Diego (R1)<br>• San Diego State University (R2)                 <br><strong>Schools:</strong><br>                 • Mission Bay High School<br>• Pacific Beach Middle School <br>• Adobe Bluffs Elementary School<br>• Pacific Beach Middle School<br>• Barnard Mandarin Magnet Elementary School             </div>         </div>         </div>`)[0];
+                popup_87ca5c3bf80d2c47fb88c9adac36e59a.setContent(html_eb6db449e195d4a73951b07a5b721f01);
+            
+        
+
+        circle_marker_870fe937ac621d86de69b9d3e6f47782.bindPopup(popup_87ca5c3bf80d2c47fb88c9adac36e59a)
+        ;
+
+        
+    
+    
+            circle_marker_870fe937ac621d86de69b9d3e6f47782.bindTooltip(
+                `<div>
+                     <strong>San Diego</strong><br/>Universities:<br/>• University of California, San Diego (R1)<br/>• San Diego State University (R2)<br/>Schools:<br/>• Mission Bay High School<br/>• Pacific Beach Middle School <br/>• Adobe Bluffs Elementary School<br/>• Pacific Beach Middle School<br/>• Barnard Mandarin Magnet Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c058baac13c63a9dcae71c6cabee9442 = L.circleMarker(
+                [37.7792588, -122.4193286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_ed9579406e164c7e3b5b3849f8115a76 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_6f1b31f89d23ff03f3a82886bf72471e = $(`<div id="html_6f1b31f89d23ff03f3a82886bf72471e" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>San Francisco, CA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • San Francisco State University (R2)                 <br><strong>Schools:</strong><br>                 • Bertrand Hsu American & Chinese Bicultural Academy<br>• Stratford School<br>• Chinese American International School<br>• International High School<br>• Presidio Knolls School<br>• Starr King Elementary School<br>• Lincoln High School<br>• Aptos Middle School<br>• José Ortega Elementary School             </div>         </div>         </div>`)[0];
+                popup_ed9579406e164c7e3b5b3849f8115a76.setContent(html_6f1b31f89d23ff03f3a82886bf72471e);
+            
+        
+
+        circle_marker_c058baac13c63a9dcae71c6cabee9442.bindPopup(popup_ed9579406e164c7e3b5b3849f8115a76)
+        ;
+
+        
+    
+    
+            circle_marker_c058baac13c63a9dcae71c6cabee9442.bindTooltip(
+                `<div>
+                     <strong>San Francisco</strong><br/>Universities:<br/>• San Francisco State University (R2)<br/>Schools:<br/>• Bertrand Hsu American & Chinese Bicultural Academy<br/>• Stratford School<br/>• Chinese American International School<br/>• International High School<br/>• Presidio Knolls School<br/>• Starr King Elementary School<br/>• Lincoln High School<br/>• Aptos Middle School<br/>• José Ortega Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3ed11b24dbc8bf6a23d1f1c6547219d = L.circleMarker(
+                [33.4942189, -111.926018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_ebbfd60b1451e8959a00aca3d3537e01 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_099d23e9048b30a8c3be19c9eb3a97d8 = $(`<div id="html_099d23e9048b30a8c3be19c9eb3a97d8" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Scottsdale, AZ</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • Arizona State University Digital Immersion (R2)                 <br><strong>Schools:</strong><br>                 • Desert Canyon Elementary              </div>         </div>         </div>`)[0];
+                popup_ebbfd60b1451e8959a00aca3d3537e01.setContent(html_099d23e9048b30a8c3be19c9eb3a97d8);
+            
+        
+
+        circle_marker_d3ed11b24dbc8bf6a23d1f1c6547219d.bindPopup(popup_ebbfd60b1451e8959a00aca3d3537e01)
+        ;
+
+        
+    
+    
+            circle_marker_d3ed11b24dbc8bf6a23d1f1c6547219d.bindTooltip(
+                `<div>
+                     <strong>Scottsdale</strong><br/>Universities:<br/>• Arizona State University Digital Immersion (R2)<br/>Schools:<br/>• Desert Canyon Elementary 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7f028ace65373b53c87cce0eef54015 = L.circleMarker(
+                [47.6038321, -122.330062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_0aaa28e7b2f55014329dbf5a43dca506 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_4d4481230c0a93290e08f58b6179b372 = $(`<div id="html_4d4481230c0a93290e08f58b6179b372" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Seattle, WA</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Washington (R1)                 <br><strong>Schools:</strong><br>                 • Chief Sealth International High School<br>• Mercer International Middle School<br>• Dearborne Park International Elementary School<br>• Beacon Hill International School             </div>         </div>         </div>`)[0];
+                popup_0aaa28e7b2f55014329dbf5a43dca506.setContent(html_4d4481230c0a93290e08f58b6179b372);
+            
+        
+
+        circle_marker_e7f028ace65373b53c87cce0eef54015.bindPopup(popup_0aaa28e7b2f55014329dbf5a43dca506)
+        ;
+
+        
+    
+    
+            circle_marker_e7f028ace65373b53c87cce0eef54015.bindTooltip(
+                `<div>
+                     <strong>Seattle</strong><br/>Universities:<br/>• University of Washington (R1)<br/>Schools:<br/>• Chief Sealth International High School<br/>• Mercer International Middle School<br/>• Dearborne Park International Elementary School<br/>• Beacon Hill International School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69d2d2a01e3e8311e968f8b800fb19b1 = L.circleMarker(
+                [32.2228765, -110.974847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_fe6d673eead43ed2f42aa13b620b7945 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_df70db7a637b6896c270b78ad3c75624 = $(`<div id="html_df70db7a637b6896c270b78ad3c75624" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Tucson, AZ</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • University of Arizona (R1)                 <br><strong>Schools:</strong><br>                 • Gavilan Peak School<br>• International School of Tucson<br>• Mesquite Elementary             </div>         </div>         </div>`)[0];
+                popup_fe6d673eead43ed2f42aa13b620b7945.setContent(html_df70db7a637b6896c270b78ad3c75624);
+            
+        
+
+        circle_marker_69d2d2a01e3e8311e968f8b800fb19b1.bindPopup(popup_fe6d673eead43ed2f42aa13b620b7945)
+        ;
+
+        
+    
+    
+            circle_marker_69d2d2a01e3e8311e968f8b800fb19b1.bindTooltip(
+                `<div>
+                     <strong>Tucson</strong><br/>Universities:<br/>• University of Arizona (R1)<br/>Schools:<br/>• Gavilan Peak School<br/>• International School of Tucson<br/>• Mesquite Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f45ded16b2ae3eb72a2bac34c9611c57 = L.circleMarker(
+                [38.8950368, -77.0365427],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4b78e80f2cf8db75449efd639c9cd12c);
+        
+    
+        var popup_bbfd5347122526810941be8e87ef7752 = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_b0388d95da9846b8c60056c52b92e6a4 = $(`<div id="html_b0388d95da9846b8c60056c52b92e6a4" style="width: 100.0%; height: 100.0%;">         <div style='width:350px; height:auto; overflow:auto; font-size:12px;'>             <strong>Washington, DC</strong><br>             <div style='width:100%;'>                 <strong>Universities:</strong><br>                 • American University (R2)                 <br><strong>Schools:</strong><br>                 • District of Columbia International School<br>• Global Citizens Public Charter School<br>• Washington Yu Ying Public Charter School             </div>         </div>         </div>`)[0];
+                popup_bbfd5347122526810941be8e87ef7752.setContent(html_b0388d95da9846b8c60056c52b92e6a4);
+            
+        
+
+        circle_marker_f45ded16b2ae3eb72a2bac34c9611c57.bindPopup(popup_bbfd5347122526810941be8e87ef7752)
+        ;
+
+        
+    
+    
+            circle_marker_f45ded16b2ae3eb72a2bac34c9611c57.bindTooltip(
+                `<div>
+                     <strong>Washington</strong><br/>Universities:<br/>• American University (R2)<br/>Schools:<br/>• District of Columbia International School<br/>• Global Citizens Public Charter School<br/>• Washington Yu Ying Public Charter School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

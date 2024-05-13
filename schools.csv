@@ -1,0 +1,395 @@
+school,city,state,zip
+Scenic Park Elementary ,Anchorage ,AK ,99504-4566 
+Gavilan Peak School,Anthem ,AZ ,85086-4955 
+Tarwater Elementary,Chandler ,AZ ,85286-8349 
+Coronado Elementary School,Gilbert ,AZ ,85297-8973 
+Desert Sage School,Glendale ,AZ ,85310-3304 
+Arizona Language Preparatory,Phoenix ,AZ ,85032
+Whispering Winds Academy,Phoenix ,AZ ,85032-4124 
+Desert Canyon Elementary ,Scottsdale ,AZ ,85255-8600 
+Gavilan Peak School,Tucson ,AZ ,85718-5521 
+International School of Tucson,Tucson ,AZ ,85719-3746 
+Mesquite Elementary,Tucson ,AZ ,85747-6300 
+Bell Tower School,Alhambra ,CA,91801
+Theodore Roosevelt Elementary School,Anaheim,CA,92805
+Springbridge International School ,Campbell,CA,95008
+Hidden Trails Elementary School,Chino Hills,CA,91709
+Pacific Academy,Costa Mesa ,CA,92626
+Philistine Rondo School of Discovery,Eastvale,CA,92880
+Rondo School of Discovery,Eastvale,CA,92880
+New Lexington School ,El Monte,CA,91733
+New Lexington School ,El Monte,CA,91733
+Betty Reid Soskin Middle School,El Sobrante,CA,94803
+Balboa School,Escondido,CA,92025
+Hopkins Junior High,Fremont ,CA,94539
+Mission San Jose High School,Fremont ,CA,94539
+Bret Harte Middle School,Hayward ,CA,94541
+Irvine International Academy,Irvine ,CA,92604
+Irvine International Academy,Irvine ,CA,92604
+Pacific Academy,Irvine ,CA,92604
+Irvine Chinese Immersion Academy,Irvine ,CA,92620
+Irvine Chinese Immersion Academy,Irvine ,CA,92620
+Florence Nightingale Middle School ,Los Angeles ,CA,90065
+Mark Twain Middle School,Los Angeles ,CA,90066
+Venice High School,Los Angeles ,CA,90066
+Robert Randall Elementary ,Milpitas,CA,95035
+Santa Fe Computer Science Magnet School,Monrovia ,CA,91016
+Montera Elementary School,Montclair,CA,90280
+Silicon Valley International School,Palo Alto ,CA,94303
+Cornerstone ,Palo Alto ,CA,94306
+Cornerstone  ,Palo Alto ,CA,94306
+Pasadena High School,Pasadena ,CA,91007
+Sierra Madre Middle School,Pasadena ,CA,91024
+Sierra Madre Middle School,Pasadena ,CA,91024
+Kennedy Middle School,Redwood City ,CA,94061
+Orion Alternative School (was John Gill Elementary),Redwood City ,CA,94062
+Encinita Elementary School,Rosemead,CA,91770
+Shelyn Elementary School,Rowland Heights,CA,91748
+Mission Bay High School,San Diego ,CA,92109
+Pacific Beach Middle School ,San Diego ,CA,92109
+Adobe Bluffs Elementary School,San Diego ,CA,92129
+Bertrand Hsu American & Chinese Bicultural Academy,San Francisco,CA,94107
+Stratford School,San Francisco,CA,94118
+Wilson Elementary School,San Gabriel,CA,91775
+Green Ivy Silicon Valley,San Jose,CA,95123
+Springbridge International School ,San Jose,CA,95125
+ShuRen School,San Jose ,CA,95125
+Avenues: Silicon Valley,San Jose ,CA,95126
+Cherrywood Elementary School,San Jose ,CA,95132
+San Miguel Elementary,South Gate,CA,90280
+Emanuele Elementary,Union City ,CA,94587
+Orangewood Elementary School,West Covina ,CA,91790
+All Souls Catholic School,Alhambra ,CA ,91801-1965 
+Marguerita Elementary School ,Alhambra ,CA ,91803-3148 
+Shu Ren International School,Berkeley ,CA ,94703-1414 
+American International Montessori School,Berkeley ,CA ,94703-2720 
+Global Montessori International School,Berkeley ,CA ,94710-2709 
+Frontiers Academy,Costa Mesa ,CA ,92626
+Renascence School International,Costa Mesa ,CA ,92626-3651 
+College Park Elementary School,Costa Mesa ,CA ,92626-6400 
+Braddock Drive Elementry School,Culver City ,CA ,90230-5823 
+Mandarin Academy,Cupertino ,CA ,95014-4630 
+Peregrine School,Davis,CA ,95616
+Pantera Elementary School,Diamond Bar ,CA ,91765-4637 
+Buckey Union Mandarin Immersion Charter School,El Dorado Hills,CA ,95762
+Pacific Rim International School,Emeryville ,CA ,94608-2501 
+Lila Bringhurst Elementary,Fremont ,CA ,94538
+Chapman Elementary School,Gardena,CA ,90249
+Wedgeworth Elementary,Hacienda Heights ,CA ,91745-3124 
+Stonebrae Elementary School,Hayward ,CA ,94542-2213 
+Marian Bergeson Elementary,Laguna Niguel ,CA ,92677-7300 
+Riverview International Academy,Lakeside ,CA ,92040
+El Capitan High School,Lakeside ,CA ,92040-2406 
+Tierra del Sol Middle School,Lakeside ,CA ,92040-4317 
+Castelar Elementary,Los Angeles ,CA ,90012-2328 
+Worldspeak ,Los Angeles ,CA ,90024-5603 
+El Sereno Middle School ,Los Angeles ,CA ,90032-2701 
+City Terrace Elementary School,Los Angeles ,CA ,90063-1049 
+Broadway Elementary School,Los Angeles ,CA ,90291-3506 
+Fred Newhart Middle School,Mission Viejo ,CA ,92692-2735 
+Newhart Middle School ,Mission Viejo ,CA ,92692-2735 
+Oasis Trilingual Community School,Monrovia,CA ,91016
+Tzu Chi Elementary School (Great Love Elementary),Monrovia ,CA ,91016-2940 
+Plymoth Elementary School,Monrovia ,CA ,91016-4905 
+Yew Chung International School,Mountain View ,CA ,94043-3711 
+Yu Ming Charter School,Oakland ,CA ,94608-1265 
+Fletcher Elementary School,Orange ,CA ,92865-2521 
+Silicon Valley International School,Palo Alto ,CA ,94303-3221 
+Ohlone Elementary School,Palo Alto ,CA ,94303-3701 
+Eugene Field Elementary School,Pasadena ,CA ,91107-1969 
+West County Mandarin School,Pinole,CA ,94564
+Redding School of the Arts,Redding ,CA ,96003-8297 
+Orion Alternative Elementary School,Redwood City ,CA ,94062-2259 
+Fletcher Elementary School,Rosemead,CA ,91770
+William Land Elementary School,Sacramento ,CA ,95818-1428 
+Pacific Beach Middle School,San Diego ,CA ,92109-3120 
+Barnard Mandarin Magnet Elementary School,San Diego ,CA ,92109-4855 
+Chinese American International School,San Francisco ,CA ,94102-7702 
+International High School,San Francisco ,CA ,94102-7702 
+Presidio Knolls School,San Francisco ,CA ,94103-3811 
+Starr King Elementary School,San Francisco ,CA ,94107-3322 
+Lincoln High School,San Francisco ,CA ,94116-1723 
+Aptos Middle School,San Francisco ,CA ,94127-2520 
+José Ortega Elementary School,San Francisco ,CA ,94132-3152 
+Meyerholz Elementary School,San Jose ,CA ,95129-2858 
+Joaquin Miller Middle School,San Jose ,CA ,95129-4043 
+Pacific Rim International School,San Mateo ,CA ,94401-1653 
+College Park Elementary School,San Mateo ,CA ,94401-1768 
+Bayside S.T.E.M. Academy,San Mateo ,CA ,94403-1061 
+Quail Run Elementary School,San Ramon ,CA ,94582-5814 
+Sierra Madre Middle School,Sierra Madre ,CA ,91024-2004 
+Marengo Elementary School,South Pasadena ,CA ,91030-3951 
+Walnut Elementary School,Walnut ,CA ,91789-3108 
+Mesa Elementary School,West Covina ,CA ,91791-2209 
+"Global Village Academy, Aurora",Aurora,CO ,80017
+Global Village Academy Aurua East & West Campus,Aurora ,CO ,80017-3900 
+Colorado International Language Academy,Colorado Springs ,CO ,80918
+Denver Language School,Denver ,CO ,80205
+International School of Denver,Denver ,CO ,80230
+Denver Language School,Denver ,CO ,80220-6019 
+"Global Village Academy, Douglas County",Douglas County ,CO ,90234- 
+AXIS International Academy,Ft. Collins,CO ,80525
+"Global Village Academy, North",Thornton,CO ,80241
+"Global Village Academy, Ft. Collins",Windsor ,CO ,80528-8900 
+District of Columbia International School,Washington ,DC ,20012
+Global Citizens Public Charter School,Washington ,DC ,20019
+Washington Yu Ying Public Charter School,Washington ,DC ,20017-1009 
+Socratic Language School,Washington DC,DC ,20016
+Fifer Middle School,Camden ,DE ,19934
+Allen J. Frear Elementary School,Camden ,DE ,19934-1935 
+Postlethwait Middle School,Camden ,DE ,19934-1978 
+McIlvaine Early Childhood Center,Magnolia ,DE ,19962-9304 
+New Castle Elementary,New Castle,DE ,19720
+Newark High School,Newark ,DE ,19711
+Shue-Medill Middle School,Newark ,DE ,19711
+John Downes Elementary,Newark ,DE ,19711- 
+Cantwell's Bridge Middle School;,Townsend,DE ,19734
+Old State Elementary School,Townsend,DE ,19734
+Spring Meadow Early Childhood Center,Townsend,DE ,19734
+Linden Hill Elementary,Wilmington ,DE ,19808-1701 
+W.B. Simpson Elementry,Wyoming ,DE ,19934-1237 
+Palm Bay Academy,Palm Bay ,FL ,32905-4102 
+Panama City Trilingual School ,Panama,FL ,32401
+Atlanta International School,Atlanta ,GA ,30305
+Atlanta Trilingual Academy,Atlanta ,GA ,30331
+Omni International School,Atlanta ,GA ,30331-7240 
+GLOBE Academy,Atlanta ,GA ,30345-3534 
+Yi Hwang Academy of Language Excellence,Duluth,GA ,30024
+Dutchtown Elementary School,Hampton ,GA ,30228- 
+International Charter School of Atlanta,Roswell ,GA ,30076-4949 
+Haven Elementary School,Savanna,GA ,31405
+Maryknoll School,Honolulu ,HI ,96822- 
+Gateway School of Language and Culture,Boise ,ID ,83713-2634 
+Rigby High School,Rigby ,ID ,83442
+Rigby Middle School,Rigby ,ID ,83442
+South Fork Elementary,Rigby ,ID ,83442-5422 
+Barrington High School,Barrington ,IL ,60010
+North Barrington Elementary,Barrington ,IL ,60010-1737 
+Countryside Elementary ,Barrington ,IL ,60010-4055 
+Station Middle School,Barrington ,IL ,60010-4627 
+Early Learning Center,Barrington ,IL ,60010-5227 
+Intercultural Montessori Language School ,Chicago ,IL ,60607-2895 
+Cherokee Elementary School,Lake Forest ,IL ,60045-3155 
+Addams Junior High School,Schaumburg,IL ,60193
+Campanelli Elementary School,Schaumburg,IL ,60193
+Barbara Rose Elementary School,South Barrington ,IL ,60010-9127 
+Batesville Intermediate School,Batesville ,IN,47006
+Batesville Middle School,Batesville ,IN,47006
+Batesville Primary School,Batesville ,IN ,47006-9228 
+International School of Indiana,Indianapolis ,IN ,46208-3324 
+Overland Trail Middle School,Overland Park ,KS ,66209
+Aubrey Bend Middle School,Overland Park ,KS ,66221
+Wolf Springs Elementary School,Overland Park ,KS ,66221
+Westdale Middle School,Baton Rouge,LA ,70806
+Baton Rouge Foreign Language Academic Immersion Magnet ,Baton Rouge,LA ,70808
+Cpl. Micheal Middlebrook Elementary ,Lafayette ,LA ,70508-6113 
+ML King Immerson School,Cambridge ,MA ,02139-2951 
+Pioneer Valley Chinese Immersion Charter School,Hadley ,MA ,01035-3535 
+Baltimore International Academy,Baltimore ,MD ,21206-5133 
+Paint Branch Elementary ,College Park ,MD ,20740-2528 
+Braddock Middle School ,Cumberland ,MD ,21502
+West Side Elementary,Cumberland ,MD ,21502-2818 
+Reid Temple Christian Academy,Glenn Dale ,MD ,20769-9049 
+Potomac Elementary School,Potomac ,MD ,20854-4913 
+Bayard Rustin Elementary School,Rockville ,MD ,20852
+Herbert Hoover Middle School,Rockville ,MD ,20852-3741 
+Northern Hills High School,Grand Rapids ,MI ,49525
+Northern Hills Middle School,Grand Rapids ,MI ,49525-3369 
+Meadow Brook Elementary School,Grand Rapids ,MI ,49546-6230 
+Forest Hills Northern Trails,Grand Rapids ,MI ,49546-6428 
+Northern Trails ,Grand Rapids ,MI ,
+Greenville High School,Greenville ,MI ,48838
+Greenville Middle School,Greenville ,MI ,48838
+Walnut Hills Elementary School,Greenville ,MI ,48838-1462 
+ Holland Christian High School,Holland,MI ,49423
+Pattengill Academy,Lansing ,MI ,48912-2309 
+Post Oak Magnet School,Lansing ,MI ,48912-3540 
+Faxon Language Immersion Academy,Southfield,MI ,48076
+Oakbrook Elementary School,Sterling Heights ,MI ,48312-2173 
+Zeeland Christian School,Zeeland ,MI ,49464-1502 
+Excelsior Elementary School,Excelsior ,MN ,55331-3035 
+Middle School West,Excelsior ,MN ,55331-8028 
+Scenic Heights Elementary School,Excelsior ,MN ,70501- 
+Lakes International Language Academy246 11th Avenue SE,Forest Lake ,MN ,55025-1883 
+Lakes International Language Academy,Forest Lake ,MN ,
+West Junior High,Hopkins ,MN ,55305
+Hopkins High School,Hopkins ,MN ,55305 |
+Xin Xing Academy,Hopkins ,MN ,55305-4737 
+Justice Allen Page Elementary,Maplewood,MN ,
+Yinghua Academy Charter School,Minneapolis ,MN ,55413-1609 
+Middle School East,Minnetonka ,MN ,55345-2530 
+Minnetonka High School,Minnetonka ,MN ,55345-4114 
+Apollo High School ,Saint Cloud ,MN ,56303
+North Junior High School,Saint Cloud ,MN ,56303
+Guang Ming Academy (Madison Elementary),Saint Cloud ,MN ,56303-2301 
+Highland Park High School,Saint Paul ,MN ,55116
+Jie Ming Mandarin Immersion,Saint Paul ,MN ,55116
+St. Louis Immersion Schools: The Chinese School,Saint Louis ,MO ,63110
+North Harnett Primary School i,Angier,NC ,27501
+East Carey Middle School,Cary,NC ,27511
+Phillips Middle School,Chapel Hill ,NC ,27514
+Glenwood Elementary School,Chapel Hill ,NC ,27517-4428 
+South Academy of International Languages,Charlotte ,NC ,28210
+East Voyager Academy,Charlotte ,NC ,28214
+Roberta Road Middle School,Concord ,NC ,28027
+Cox Mill Elementary,Concord ,NC ,28027-7566 
+International Montessori School,Durham,NC ,27707
+New Century International Elementary,Fayetteville ,NC ,28306-3053 
+Triad International Studies Academya,Greensboro,NC ,
+Harrisburg Elementary,Harrisburg,NC ,28075
+Marvin Elementary,Marvin ,NC ,28173-8597 
+ILIM School,Pineville,NC ,28134
+Oberlin Magnet Middle School,Raleigh ,NC ,27608
+Stough Elementary,Raleigh ,NC ,27612-5404 
+Konnoack Elementary,Winston Salem ,NC ,27127-5030 
+Tessa International School,Hoboken,NJ ,7030
+YingHua International School,Kingston ,NJ ,08528-9621 
+Hudson Way Immersion School,Stirling,NJ ,07980
+Maurice Hawk Elementary School,West Windsor,NJ ,8550
+Bamboo Shoots Mandarin School,Westfield ,NJ ,07090-2362 
+Ms. Lam's Montessori School,Brooklyn ,NY ,11249
+"Henry Longfellow International School for Language and Culture, PS 94",Brooklyn ,NY ,11220-2008 
+PS 102 Q Bayview School,Elmhurst,NY ,11373
+St. Michael's Catholic Academy,Flushing ,NY ,11355
+Queens High School for Language Studies,Flushing ,NY ,11354-3405 
+Pine Street School,Manhattan,NY ,10005
+Hudson Way Immersion School,New York ,NY ,10019
+Polis Montessori World School,New York ,NY ,10075
+Avenues: The World School,New York ,NY ,10001-7020 
+Anna Silver P.S. 20,New York ,NY ,10002-1502 
+High School for Dual Language and Asian Studies,New York ,NY ,10002-4629 
+Shuang Wen School P.S. 184,New York ,NY ,10002-6560 
+Hudson Way Immersion School,New York ,NY ,10019 
+Fresh Meadows P.S. 173,Queens ,NY ,11365- 
+Global Ambassadors Language Academy,Cleveland ,OH ,44111-3432 
+German International School ,Beaverton ,OR ,97005
+Hope Chinese Charter School,Beaverton ,OR ,97005
+Churchill High School,Eugene ,OR ,97405
+Kennedy Middle School (will be K-8),Eugene ,OR ,97405
+Palisades World Language School,Lake Oswego,OR ,97034
+International School of Portland,Portland ,OR ,97201
+Clark Elementary,Portland ,OR ,97216
+Harrison Park Middle School,Portland ,OR ,97216
+Jefferson High School,Portland ,OR ,97217
+Harriet Tubman Middle School,Portland ,OR ,97227
+Cleveland High School ,Portland ,OR ,97202-2130 
+Woodstock Elementary School,Portland ,OR ,97206-5679 
+Martin Luther King Elementary School,Portland ,OR ,97211-3912 
+Gilkey International Middle School,Portland ,OR ,97229-6780 
+Athey Creek Middle School,Tualatin,OR ,97062
+Bolton Primary School,West Linn,OR ,97068
+West Linn High school,West Linn,OR ,97068
+Wilsonville High School,Wilsonville,OR ,97070
+Broad River Elementary School,Beaufort ,SC ,29906-9489 
+Belvedere Elementary School,Belvedere,SC ,29841
+Hand Middle School,Columbia ,SC ,29205
+Carver-Lyon Elementary,Columbia ,SC ,29204-1226 
+"Music, Math, and Multilingual Christian Academy ",Greenville ,SC ,29607
+East Link Academy,Greenville ,SC ,29608-4487
+Hilton Head Island Elementary School,Hilton Head Island ,SC ,29926-1686 
+Meadow Glen,Lexington ,SC ,29072-8041 
+East Point Academy middle school,West Columbia ,SC ,29169
+East Point Academy Elementary campus,West Columbia ,SC ,29196
+LakeCreek Montessori International School,Austin ,TX ,78729
+Joslin Foreign Language Elementary School,Austin ,TX ,78745
+Little Tigers Immersion School,Austin ,TX ,78751
+Reilly Elementary,Austin ,TX ,78752
+Doss Elementary School,Austin ,TX ,78731-2933 
+Weaver Elementary,Garland ,TX ,75040-4834 
+Mandarin Chinese Language Immersion Magnet School,Houston ,TX ,77056
+International School of San Antonio,San Antonio,TX ,78230
+Stafford Elementary School,Stafford ,TX ,77477-6326 
+Timberline Middle School,Alpine ,UT ,84042
+Alpine Elementary,Alpine ,UT ,84004-1435 
+Mueller Park Junior High School,Bountiful ,UT ,84010
+Leo J. Muir Elementary,Bountiful ,UT ,84010-5641 
+Adele Young Intermediate,Brigham City ,UT ,84302
+Foothill Elementary,Brigham City ,UT ,84302-1406 
+Fiddlers Canyon Elementary,Cedar City,UT ,84721
+Stewart Elementary,Centerville ,UT ,84014-1500 
+Centerville Junior High,Centerville ,UT ,84014-2253 
+Brighton High School,Cottonwood Heights ,UT ,84070
+Ridgecrest Elementary,Cottonwood Heights ,UT ,84121-6146 
+Butler Middle School,Cottonwood Heights ,UT ,84121-6228 
+Corner Canyon High School,Draper ,UT ,84020
+Draper Park Middle School,Draper ,UT ,84020-9153 
+Draper Elementary,Draper ,UT ,84020-9307 
+Black Ridge Elementary,Eagle Mountain ,UT ,84005-6259 
+Mountain Ridge High School,Herriman ,UT ,84096
+Fort Herriman Middle School,Herriman ,UT ,84096-1931 
+Copper Mountain Middle School,Herriman ,UT ,84096-5674 
+Bonneville Junior High School,Holladay ,UT ,84117 
+Spring Lane Elementary,Holladay ,UT ,84117-7499 
+Hurricane Intermediate School,Hurricane ,UT ,84737
+Three Falls Elementary,Hurricane ,UT ,84737-2511 
+Cedar Ridge Elementary,Hyde Park,UT ,
+Heritage Elementary,Layton ,UT ,84041-7310 
+Renaissance Academy,Lehi ,UT ,84043-6538 
+Cottonwood High School,Murray,UT ,84121
+North Ogden Junior High School,North Ogden ,UT ,84414
+Bates Elementary,North Ogden ,UT ,84414-1737 
+Uintah Elementary,Ogden ,UT ,84403-5322 
+Cascade Elementary,Orem ,UT ,84097
+Orem High School,Orem ,UT ,84097
+Aspen Elementary,Orem ,UT ,84057-8616 
+Canyon View Jr. High ,Orem ,UT ,84097-3443 
+Timpview High School,Provo ,UT ,84601
+Wasatch Elementary,Provo ,UT ,84604-3537 
+Centennial Middle School ,Provo ,UT ,84604-5814 
+North Cache Middle School,Richmond ,UT ,84333
+Oquirrh Hills Middle School,Riverton,UT ,84065
+Riverton High School,Riverton,UT ,84065
+Southland Elementary,Riverton,UT ,84065
+South Hills Middle School,Riverton ,UT ,84065
+Foothills Elementary,Riverton ,UT ,84096
+Southland Elementary,Riverton ,UT ,84065-6729 
+Oquirrh Middle School,Riverton ,UT ,84065-6749 
+Foothills Elementary,Riverton ,UT ,84096-6480 
+Bloomington Elementary,Saint George ,UT ,84790-7920 
+Alta High School,Sandy ,UT ,84084
+Lone Peak Elementary,Sandy ,UT ,84092-5565 
+Indian Hills Middle School,Sandy ,UT ,84094-5664 
+Arrowhead Elementary,Santa Clara ,UT ,84765
+Lava Ridge Intermediate,Santa Clara ,UT ,84765
+Santa Clara Elementary,Santa Clara ,UT ,84765-5109 
+Arrowhead Elementary,Santa Clara ,UT ,84765-5495 
+Vista Heights Middle School,Saratoga Springs ,UT ,84045
+Riverview Elementary,Saratoga Springs ,UT ,84045-6651 
+Mountain Creek Middle School,South Jordan ,UT ,84009
+Bingham High School,South Jordan ,UT ,84095
+Herriman High School,South Jordan ,UT ,84096
+Eastlake Elementary,South Jordan ,UT ,84009-7781 
+Monte Vista Elementary,South Jordan ,UT ,84095-8431 
+South Jordan Middle School,South Jordan ,UT ,84095-8971 
+South Ogden Junior High School,South Ogden ,UT ,84405-3313 
+Springville Junior High School,Springville ,UT ,84663
+Sage Creek Elementary,Springville ,UT ,84663-2876 
+Tonaquint Intermediate,St. George,UT ,84770
+Sunrise Ridge Intermediate School,St. George,UT ,84790
+Syracuse Junior High,Syracuse ,UT ,84075-6936 
+Syracuse Elementary,Syracuse ,UT ,84075-6937 
+Taylorsville High School,Taylorsville ,UT ,84123
+Calvin Smith Elementary,Taylorsville ,UT ,84129-1473 
+Bennion Junior High,Taylorsville ,UT ,84129-5134 
+Tooele High School,Tooele ,UT ,84074
+Tooele Junior High,Tooele ,UT ,84074
+Northlake Elementary,Tooele ,UT ,84074-1311 
+Horizon Elementary,Washington ,UT ,84780-8305 
+Bonneville High School,Washington Terrace,UT ,84405
+Gates Elementary,Chesterfield ,VA,23832
+International Friends School,Bellevue,WA ,98005
+Bel-Red Academy ,Bellevue,WA , 98007
+The International Academy,Bellevue ,WA ,98006-1639 
+Jing Mei Elementary,Bellevue ,WA ,98006-2920 
+Tillicum Middle School,Bellevue ,WA ,98006-3702 
+Naselle School,Naselle ,WA ,98638-8541 
+Chief Sealth International High School,Seattle ,WA ,98126
+Mercer International Middle School,Seattle ,WA ,98108-1565 
+Dearborne Park International Elementary School,Seattle ,WA ,98108-3066 
+Beacon Hill International School,Seattle ,WA ,98144-4205 
+Columbia River High school,Vancouver ,WA ,98665
+Jason Lee Middle School,Vancouver ,WA ,98665
+Ben Franklin Elementary School,Vancouver ,WA ,98663-1636 
+Verona Area International School,Verona,WI ,53593
+CY Middle School,Casper ,WY ,82604
+Paradise Valley Elementary,Casper ,WY ,82604-4037 
