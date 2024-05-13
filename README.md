@@ -4,6 +4,8 @@
 
 This repository hosts an interactive map designed to assist in identifying potential locations in the United States that are not only prominent for their educational institutions but also have strong Chinese communities. This map is particularly useful for academic professionals seeking faculty positions in areas where Chinese heritage and culture are vibrant and accessible.
 
+[View Map](map.html)
+
 ## Background
 
 I am currently a PhD student exploring faculty job opportunities across the United States. An essential factor in my search is finding a location that supports both my professional aspirations and my personal life, particularly concerning my daughter's education. She is a Chinese heritage language learner, and it is crucial for us that she continues to learn and engage with her mother's culture and language. Thus, this map serves as a tool to visualize areas that align with our family's needs and professional goals.
