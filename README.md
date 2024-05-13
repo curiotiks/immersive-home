@@ -4,7 +4,7 @@
 
 This repository hosts an interactive map designed to assist in identifying potential locations in the United States that are not only prominent for their educational institutions but also have strong Chinese communities. This map is particularly useful for academic professionals seeking faculty positions in areas where Chinese heritage and culture are vibrant and accessible.
 
-[View Map](map.html)
+[View Map](https://curiotiks.github.io/immersive-home/map.html)
 
 ## Background
 
